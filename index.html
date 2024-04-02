@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube clone</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="./youtube.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <i class="fa-solid fa-bars menu-icon"></i>
+            <img src="youtube.png" class="logo"><p>Youtube clone</p>
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="search">
+                <div class="imag"><span class="material-symbols-outlined">
+                    search
+                    </span></div>
+            </div>
+           <div class="mic"> <i class="fa-solid fa-microphone"></i></div>
+        </div>
+        <div class="nav-right flex-div">
+            <i class="fa-solid fa-video"></i>
+            <i class="fa-regular fa-bell"></i>
+            <div class="user">
+                <a href="#more"><img src="./iro.webp" alt=""></a>
+            </div>
+       
+        </div>
+        <div class="box5" id="more">
+<div class="logo1">
+    <div class="img1">
+        <img src="./iro.webp" alt="">
+    </div>
+    <div class="info1">
+        <p>Guru venkat</p>
+        <p>@ gvschannel</p>
+        <a href="">View your channel</a>
+    </div>
+</div>
+<div class="ano-box">
+   <div class="n1"><i class="fa-solid fa-g"></i><a href="">Google Account</a></div>
+   <div class="n1"><span class="material-symbols-outlined">
+    switch_account
+    </span><a href="">Switch account</a></div>
+   <div class="n1"><span class="material-symbols-outlined">
+    logout
+    </span><a href="">Sign Out</a></div>
+</div>
+<div class="pri">
+    <div class="k1"><a href="">Youtube studio</a></div>
+    <div class="k1"><span class="material-symbols-outlined">
+        monetization_on
+        </span><a href="">Memberships</a></div>
+</div>
+<div class="set">
+<div class="l1"><span class="material-symbols-outlined">
+    settings
+    </span><a href="">Settings</a></div>
+<div class="l1"><span class="material-symbols-outlined">
+    help
+    </span><a href="">Help</a></div>
+<div class="l1"><span class="material-symbols-outlined">
+    feedback
+    </span><a href="">Send feedback</a></div>
+</div>
+        </div>
+    </nav>
+       <!-------------------------sidebar---------------->
+
+     <div class="sidebar">
+        <div class="shortcut-links">
+            <a href=""><i class="fa-solid fa-house"></i><p>Home</p></a>
+            <a href=""><i class="fa-solid fa-compass"></i><p>Explore</p></a>
+            <a href=""><span class="material-symbols-outlined">
+                subscriptions
+                </span><p>subscriptions</p></a>
+            <a href=""><span class="material-symbols-outlined">
+                library_books
+                </span><p>Library</p></a>
+            <a href=""><i class="fa-solid fa-clock-rotate-left"></i><p>History</p></a>
+            <a href=""><span class="material-symbols-outlined">
+                playlist_play
+                </span><p>Playlist</p></a>
+            
+            <a href=""><span class="material-symbols-outlined">
+                expand_more
+                </span><p>Show More</p></a>
+            <hr>
+        </div>
+        <h3>SUBSCRIBED</h3>
+        <div class="shortcut-links f2" id="sub">
+        
+           <a href=""><div class="im"><img src="./ma.webp" alt=""></div><p>marvel entertainment</p></a>
+           <a href=""><div class="im"><img src="./stack.webp" alt=""></div><p>full-stack developer</p></a> 
+           <a href=""><div class="im"><img src="./ironman1.webp" alt=""></div><p>marvel_fans channel</p></a> 
+           <a href=""><div class="im"><img src="./dore.webp" alt=""></div><p>All cartoon channel</p></a> 
+           <a href=""><div class="im"><img src="./moti.webp" alt=""></div><p>motivational channel</p></a>  
+           <a href=""><span class="material-symbols-outlined">
+            expand_more
+            </span><p>Show More</p></a>
+      
+      
+        </div>
+        <br><br>
+        <hr>
+        
+        <h3>Explore</h3>
+        <div class="shortcut-links h2">
+<a href=""><span class="material-symbols-outlined">
+    local_fire_department
+    </span><p>Trending</p></a>
+<a href=""><span class="material-symbols-outlined">
+    shopping_bag
+    </span><p>Shopping</p></a>
+<a href=""><span class="material-symbols-outlined">
+    music_note
+    </span><p>Music</p></a>
+<a href=""><span class="material-symbols-outlined">
+    movie
+    </span><p>Films</p></a>
+
+<a href=""><span class="material-symbols-outlined">
+    sensors
+    </span><p>Live</p></a>
+<a href=""><span class="material-symbols-outlined">
+    sports_esports
+    </span><p>Gaming</p></a>
+<a href=""><span class="material-symbols-outlined">
+    emoji_events
+    </span><p>Sport</p></a>
+        </div>
+        <hr>
+        <div class="shortcut-links v2">
+            <a href=""><span class="material-symbols-outlined">
+                settings
+                </span><p>Settings</p></a>
+            <a href=""><span class="material-symbols-outlined">
+                flag
+                </span><p>Report history</p></a>
+            <a href=""><span class="material-symbols-outlined">
+                help
+                </span><p>Help</p></a>
+            <a href=""><span class="material-symbols-outlined">
+                feedback
+                </span><p>Send </p></a>
+        </div>
+        <hr>
+        <div class="shortcut-links pow">
+            <p>Powered By  <b>@Guru Venkat</b> </p>
+        
+            <br><br><br><br><br>
+        </div>
+     </div>
+     <!-- --------main----------- -->
+     <div class="container">
+      <div class="buttons">
+        <button>All</button><button>music</button><button>Cid</button><button>marvel</button><button>fighter</button><button>trailers</button><button>bgmi</button><button>kalki</button><button>Prabhas</button>
+      </div>
+        <div class="list-container">
+<div class="vedio1">
+   <div class="v1">
+    <video controls poster="./her.webp">
+        <source src="./heri.mp4">
+    </video>
+   </div>
+   <div class="info">
+    <div class="dp">
+<img src="./hei.jpg" alt="">
+    </div>
+    <div class="tittle">
+<p>Heeriye | Jasleen Royal | Arijit Singh| Dulquer <span>Salmaan| Aditya Sharma | Taani Tanvir</span></p>
+    </div>
+    <div class="more1">
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+    </div>
+   
+</div>
+<div class="time">
+    <p>Dark Melodious <i class="fa-solid fa-circle-check"></i> </p> 
+    <p>5.2M views . 4 months ago</p>  
+</div>
+</div>
+<div class="vedio1">
+    <div class="v1">
+     <video controls poster="./ooruuu.webp">
+         <source src="./Nijame Ne Full Video_ Ooru Peru Bhairavakona _Sundeep Kishan _ Sid Sriram _ VI Anand_ ShekarChandra.mp4">
+     </video>
+    </div>
+    <div class="info">
+     <div class="dp">
+ <img src="./adit.jpg" alt="">
+     </div>
+     <div class="tittle">
+ <p>Nijame Ne Full Video| Ooru Peru <span>Bhairavakona |Sundeep Kishan | Sid ....</span> </p>
+     </div>
+     <div class="more1">
+         <i class="fa-solid fa-ellipsis-vertical"></i>
+     </div>
+    
+ </div>
+ <div class="time">
+     <p>Aditya Music<i class="fa-solid fa-circle-check"></i> </p> 
+     <p>9.1M views . 3 weeks ago</p>  
+ </div>
+ </div>
+<div class="vedio1">
+    <div class="v1">
+     <video controls poster="./CID-Online-Episodes.webp">
+         <source src="./CID - Ep 1483 - Full Episode - 30th December, 2017.mp4">
+     </video>
+    </div>
+    <div class="info">
+        <div class="dp">
+<img src="./sony.jpg" alt="">
+        </div>
+        <div class="tittle">
+<p>CID-EP 1490 - FULL Episode - 21st January,<br><span>2018</span></p>
+        </div>
+        <div class="more1"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+       
+    </div>
+    <div class="time">
+         <p>SET India <i class="fa-solid fa-circle-check"></i> </p> 
+         <p>20M views . 6 years ago</p>  
+    </div>
+ </div>
+
+           </div>
+          
+           <div class="list-container">
+            <div class="vedio1">
+               <div class="v1">
+                <video controls>
+                    <source src="./ka.mp4">
+                </video>
+               </div>
+               <div class="info">
+                <div class="dp">
+        <img src="./channels4_profile.jpg" alt="">
+                </div>
+                <div class="tittle">
+        <p class="p1">KHAIRIYAT (Yeh Dooriyan Filhaal Hain- <span>CHHICHHORE) | Sushant,Shraddha.....</span></p>
+                </div>
+                <div class="more1">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+               
+            </div>
+            <div class="time">
+                <p>DesiDhun <i class="fa-solid fa-circle-check"></i> </p> 
+                <p>105K views . 1 month ago</p>  
+            </div>
+            </div>
+            <div class="vedio1">
+                <div class="v1">
+                 <video controls poster="./be.webp">
+                     <source src="./Morning Tea _ Funny Episodes _ Mr Bean Cartoon World.mp4">
+                 </video>
+                </div>
+                <div class="info">
+                 <div class="dp">
+             <img src="./mrbea.jpg" alt="">
+                 </div>
+                 <div class="tittle">
+             <p>Morning Tea | Funny Episodes | Mr Bean <span>Cartoon World</span></p>
+                 </div>
+                 <div class="more1">
+                     <i class="fa-solid fa-ellipsis-vertical"></i>
+                 </div>
+                
+             </div>
+             <div class="time">
+                 <p>Mr Bean World <i class="fa-solid fa-circle-check"></i> </p> 
+                 <p>47M views . 5 years ago</p>  
+             </div>
+             </div>
+            <div class="vedio1">
+                <div class="v1">
+                 <video controls poster="./Chilaka-Deepthi-Sunaina-Song.webp">
+                     <source src="./Chilaka Music Video _ Deepthi Sunaina _ Vinay shanmukh _ Ankith Koyya _ Vijai Bulganin.mp4">
+                 </video>
+                </div>
+                <div class="info">
+                    <div class="dp">
+            <img src="./deep.jpg" alt="">
+                    </div>
+                    <div class="tittle">
+            <p>Chilaka Music Video | Deepthi Sunaina | <span>Vinay shanmukh | Ankith Koyya....</span></p>
+                    </div>
+                    <div class="more1"> <i class="fa-solid fa-ellipsis-vertical"></i></div>
+                   
+                </div>
+                <div class="time">
+                    <p>DesiDhun <i class="fa-solid fa-circle-check"></i> </p> 
+                    <p>7.7M views . 2 month ago</p> 
+                </div>
+             </div>
+            
+            
+                       </div>
+                       <div class="reels-container">
+                       <header>
+                        <img src="./short.png" alt=""><p>Shorts</p>
+                       </header>
+                       <div class="shor">
+                        <div class="b1">
+                            <div class="so">
+<video controls>
+    <source src="./prabhs.mp4">
+</video>
+                            </div>
+                            <div class="tit">
+                                <div class="titl">
+                                    <p>salaar official teaser 4k | ramp <span>🔥🔥| prabhas |pruthviraj...</span></p>
+                                    <div class="view">
+                                        <p>1M views</p>
+                                    </div>
+                                </div>
+                                <div class="mor">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="b1">
+                            <div class="so">
+                               <video controls>
+                                <source src="./emmoa.mp4">
+                               </video>
+                                                            </div>
+                                                            <div class="tit">
+                                                                <div class="titl">
+                                                                    <p style="margin-left:11px">Eomma in you era 🔥#twinklingwatermelon</p>
+                                                                    <div class="view">
+                                                                        <p style="margin-left:11px">40M views</p>
+                                                                    </div>
+                                                                    
+                                                                </div>
+                                                                <div class="mor">
+                                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                                </div>
+                                                            </div>
+                        </div>
+                        <div class="b1">
+                            <div class="so">
+                                <video controls>
+                                    <source src="./spideman.mp4">
+                                </video>
+
+                            </div>
+                            <div class="tit">
+                                <div class="titl">
+                                    <p>Spiderman no way home| peter <span> parkar black suit</span></p>
+                                    <div class="view">
+                                        <p style="margin-left:11px">27M views</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class="mor">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                            <div class="mor">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+                        <div class="b1">
+                            <div class="so">
+                                <video controls>
+                                    <source src="./gil.mp4">
+                                </video>
+                            </div>
+                            <div class="tit">
+                                <div class="titl">
+                                    <p style="margin-left:11px">Every Avengers Power Use Giah & Gravik In Secret Invasion💪</p>
+                                    <div class="view">
+                                        <p style="margin-left:11px">109k views</p>
+                                    </div>
+                                </div>
+                                <div class="mor">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    
+                        <div class="b1">
+                            <div class="so">
+                                <video controls poster="./end.webp">
+                                    <source src="./aveng.mp4">
+                                </video>
+                            </div>
+                            <div class="tit">
+                                <div class="titl">
+                                    <p>
+                                        WE LOST OUR LEGENDS 😓💔🥀. <span>#Shorts</span></p>
+                                        <div class="view">
+                                            <p style="margin-left:11px">120M views</p>
+                                        </div>
+
+                                </div>
+                                <div class="mor">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                       </div>
+                       
+                        </div>
+                        <div class="list-container s4">
+                            <div class="vedio1">
+                                <div class="v1">
+                                 <video controls>
+                                     <source src="./dorem2.mp4">
+                                 </video>
+                                </div>
+                                <div class="info">
+                                 <div class="dp">
+                             <img src="./d.jpg" alt="">
+                                 </div>
+                                 <div class="tittle">
+                             <p>Doraemon New Episode 23-03-2024 - <span>Episode 1 - Doraemon Cartoon....</span>
+                            </p>
+                                 </div>
+                                 <div class="more1">
+                                     <i class="fa-solid fa-ellipsis-vertical"></i>
+                                 </div>
+                                
+                             </div>
+                             <div class="time">
+                                 <p>Wave Breaking <i class="fa-solid fa-circle-check"></i> </p> 
+                                 <p>505K views . 1 day ago</p>  
+                             </div>
+                             </div>
+                            <div class="vedio1">
+                                <div class="v1">
+                                 <video controls poster="./thumbnail joe.webp">
+                                     <source src="./joe.mp4">
+                                 </video>
+                                </div>
+                                <div class="info">
+                                 <div class="dp">
+                         <img src="./think.jpg" alt="">
+                                 </div>
+                                 <div class="tittle">
+                         <p class="p1">Urugi Urugi - Lyric Video | Joe | Rio Raj |<span> Hariharan Ram.S | Siddhu....</span></p>
+                                 </div>
+                                 <div class="more1">
+                                     <i class="fa-solid fa-ellipsis-vertical"></i>
+                                 </div>
+                                
+                             </div>
+                             <div class="time">
+                                 <p>Think Music India <i class="fa-solid fa-circle-check"></i> </p> 
+                                 <p>7M views . 9 month ago</p>  
+                             </div>
+                             </div>
+                             <div class="vedio1">
+                                <div class="v1">
+                                 <video controls>
+                                     <source src="./cid3.mp4">
+                                 </video>
+                                </div>
+                                <div class="info">
+                                 <div class="dp">
+                         <img src="./sonywa.jpg" alt="">
+                                 </div>
+                                 <div class="tittle">
+                         <p class="p1">CID ​​Domestic Violence के मामले में Justice का <span>करती है प्रयास | CID | सी.आई.डी | 11 Feb 2024</span></p>
+                                 </div>
+                                 <div class="more1">
+                                     <i class="fa-solid fa-ellipsis-vertical"></i>
+                                 </div>
+                                
+                             </div>
+                             <div class="time">
+                                 <p>Sony WAH <i class="fa-solid fa-circle-check"></i> </p> 
+                                 <p>2.4M views . 1 month ago</p>  
+                             </div>
+                             </div>   
+                             
+                        </div>
+                        <div class="list-container">
+                            <div class="vedio1">
+                                <div class="v1">
+                                 <video controls poster="./wolv.webp">
+                                     <source src="./Deadpool & Wolverine _ Official Teaser _ In Theaters July 26.mp4">
+                                 </video>
+                                </div>
+                                <div class="info">
+                                 <div class="dp">
+                         <img src="./mar.jpg" alt="">
+                                 </div>
+                                 <div class="tittle">
+                         <p class="p1">Deadpool & Wolverine | Official Teaser |<span> In Theaters July 26</span></p>
+                                 </div>
+                                 <div class="more1">
+                                     <i class="fa-solid fa-ellipsis-vertical"></i>
+                                 </div>
+                                
+                             </div>
+                             <div class="time">
+                                 <p>Marvel Entertainment <i class="fa-solid fa-circle-check"></i> </p> 
+                                 <p>27M views . 1 month ago</p>  
+                             </div>
+                             </div>
+                             <div class="vedio1">
+                                <div class="v1">
+                                 <video controls>
+                                     <source src="./wakanda.mp4">
+                                 </video>
+                                </div>
+                                <div class="info">
+                                 <div class="dp">
+                             <img src="./w1.jpg" alt="">
+                                 </div>
+                                 <div class="tittle">
+                             <p>Thor Arrives In Wakanda Scene - Avengers <span>Infinity War (2018) Movie CLIP 4K ULTRA HD</span></p>
+                                 </div>
+                                 <div class="more1">
+                                     <i class="fa-solid fa-ellipsis-vertical"></i>
+                                 </div>
+                                
+                             </div>
+                             <div class="time">
+                                 <p>Obladish cinema <i class="fa-solid fa-circle-check"></i> </p> 
+                                 <p>6.4M views . 3 years ago</p>  
+                             </div>
+                             </div>
+                             <div class="vedio1">
+                                <div class="v1">
+                                 <video controls>
+                                     <source src="./Sunil Hilarious Class Room Comedy Scene _ Telugu Comedy Scenes _ Telugu Videos.mp4">
+                                 </video>
+                                </div>
+                                <div class="info">
+                                 <div class="dp">
+                         <img src="./tel.jpg" alt="">
+                                 </div>
+                                 <div class="tittle">
+                         <p class="p1">Sunil Hilarious Class Room Comedy Scene |<span> Telugu Comedy Scenes | Telugu Videos</span></p>
+                                 </div>
+                                 <div class="more1">
+                                     <i class="fa-solid fa-ellipsis-vertical"></i>
+                                 </div>
+                                
+                             </div>
+                             <div class="time">
+                                 <p>Telugu Videos<i class="fa-solid fa-circle-check"></i> </p> 
+                                 <p>4.5M views . 2 years  ago</p>  
+                             </div>
+                             </div>   
+                        </div>
+
+
+                        <div class="list-container">
+                            <div class="vedio1">
+                                <div class="v1">
+                                 <video controls poster="./k.webp">
+                                     <source src="./kalk.mp4">
+                                 </video>
+                                </div>
+                                <div class="info">
+                                 <div class="dp">
+                         <img src="./vijay.jpg" alt="">
+                                 </div>
+                                 <div class="tittle">
+                         <p class="p1">Kalki 2898 AD Glimpse | Prabhas | Amitabh <span> Bachchan | Kamal Haasan....</span></p>
+                                 </div>
+                                 <div class="more1">
+                                     <i class="fa-solid fa-ellipsis-vertical"></i>
+                                 </div>
+                                
+                             </div>
+                             <div class="time">
+                                 <p>Vyjayanthi Network <i class="fa-solid fa-circle-check"></i> </p> 
+                                 <p>37M views . 8 month ago</p>  
+                             </div>
+                             </div>
+                             <div class="vedio1">
+                                <div class="v1">
+                                 <video controls poster="./stack.webp">
+                                     <source src="./full-sta.mp4">
+                                 </video>
+                                </div>
+                                <div class="info">
+                                 <div class="dp">
+                             <img src="./sta1.jpg" alt="">
+                                 </div>
+                                 <div class="tittle">
+                             <p>What Is Full Stack? | Full Stack Developer |<span> What Is Full Stack Web ....</span></p>
+                                 </div>
+                                 <div class="more1">
+                                     <i class="fa-solid fa-ellipsis-vertical"></i>
+                                 </div>
+                                
+                             </div>
+                             <div class="time">
+                                 <p>Simplilearn <i class="fa-solid fa-circle-check"></i> </p> 
+                                 <p>415K views . 3 years ago</p>  
+                             </div>
+                             </div>
+                             <div class="vedio1">
+                                <div class="v1">
+                                 <video controls poster="./g3.webp">
+                                     <source src="./ghost.mp4">
+                                 </video>
+                                </div>
+                                <div class="info">
+                                 <div class="dp">
+                         <img src="./g2.jpg" alt="">
+                                 </div>
+                                 <div class="tittle">
+                         <p class="p1">Transforming Into the Ghost Rider Scene - Ghost Rider (2007)</p>
+                                 </div>
+                                 <div class="more1">
+                                     <i class="fa-solid fa-ellipsis-vertical"></i>
+                                 </div>
+                                
+                             </div>
+                             <div class="time">
+                                 <p>Clip<i class="fa-solid fa-circle-check"></i> </p> 
+                                 <p>4.5M views . 4 months  ago</p>  
+                             </div>
+                             </div>   
+                        </div>
+                                   </div>
+                                   </div>
+                                   </div>
+                                   
+                                   </div>
+                                   
+                                  
+                                    
+                                               </div>
+               
+            
+
+         
+          
+           
+
+
+
+
+
+     </div>
+
+<script src="script.js"></script>
+</body>
+</html>
